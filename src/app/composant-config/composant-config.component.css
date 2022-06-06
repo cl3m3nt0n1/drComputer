@@ -1,0 +1,35 @@
+h3{
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 0%;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 0%;
+    color: rgba(0, 0, 0, 0.52);
+    transform: rotate(0.05deg);
+    margin-bottom: 10px;
+    line-height: 20px;
+    line-break: auto;
+    text-align: center;
+}
+
+.composant{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 210px;
+    height: 250px;
+    margin: 12px;
+}
+

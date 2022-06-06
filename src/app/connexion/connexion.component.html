@@ -1,0 +1,24 @@
+
+<app-header></app-header>
+<div class="connexion-class">
+        
+    <h2>Qui êtes vous ?</h2>
+
+    <h3>Vous avez déjà un compte ?</h3>
+
+    <input type ='email' id = "email" placeholder="e-mail">
+    <input type ='password' id = "password" placeholder="mot de passe">
+    <input type="button" routerLink="/index" class= "accept" value="Connexion">
+    <a routerLink = '/no-password' routerLinkActive="active" class="forgotten_pass">Mot de passe oublié ?</a>
+    
+    <div class="noAccount">
+        <h3>Vous n'avez pas encore de compte ?</h3>
+        <input type ='email' id = "email_no_account" placeholder="e-mail">
+        <input type ='password' id = "pass_no_account" placeholder="mot de passe">
+        <input type ='password' id = "pass_conf_no_account" placeholder="confirmer le mot de passe">  
+    </div>
+    <input type="button" routerLink="/index" class= "accept" value="Inscription">  
+    
+    
+    
+</div>

@@ -1,0 +1,36 @@
+<!-- Page de configuration
+     Nécessite l'import de composants composantConfig
+-->
+<app-header></app-header>
+
+<h1>Configurateur : </h1>
+<!-- Affiche le 'composant-config' 'boitier' par passage d'argument  -->
+<section class="body">
+     <section class="config">
+          <div class="componentGrid">
+               <app-composant-config item='boitier'></app-composant-config>
+               <app-composant-config item= 'cpu'></app-composant-config>
+               <app-composant-config item= 'gpu'></app-composant-config>
+               <app-composant-config item= 'ram'></app-composant-config>
+               <app-composant-config item= 'ssd'></app-composant-config>
+               <app-composant-config item= 'hdd'></app-composant-config>
+               <app-composant-config item= 'windows'></app-composant-config>
+          </div>
+
+          <div class="Total">
+               <h3 class="resume">Résumé de votre config :</h3>
+               <h3>Boîtier : </h3>
+               <h3>Processeur : </h3>
+               <h3>Carte Graphique : </h3>
+               <h3>RAM : </h3>
+               <h3>SSD : </h3>
+               <h3>HDD : </h3>
+               <h3>Windows : </h3>
+               <h3>----------------------------</h3>
+               <h3 class="money">Total : </h3>
+               
+
+          </div>
+     </section>
+</section>
+

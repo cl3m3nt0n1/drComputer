@@ -1,0 +1,68 @@
+
+::placeholder{
+    
+    font-family: 'Viga';
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.46);
+
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 309px;
+    height: 48px;
+    margin-top: 15px;
+    background: #F6F3F4;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    border-radius: 9px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font: 400 16px/28px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.accept{
+
+    background: #EB5E28;
+    font-family: 'Viga';
+    font-style: normal;
+    width: 110px;
+    border-radius: 42px;
+    color: rgb(240, 240, 240);
+    
+}
+
+.noAccount{
+    margin-top: 20px;
+}
+.forgotten_pass{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.connexion-class{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
